@@ -1,9 +1,7 @@
 # TSN
 The paper "Triple-shapelet Networks for Time Series Classification" accepted by 2019 IEEE International Conference on Data Mining (ICDM).
 
-***
-
-## Classification result
+## Classification Result
 Here is the full result of TSN on 85 UCR time series classification datasets. The results of the deep learning methods are taken from [1], and the results of the other methods are from [2].
 
 | Dataset | DD<sub>DTW</sub> | DTD<sub>C</sub> | BOSS  | TSF   | TSBF  | LPS   | EE    | COTE   | MLP   | FCN   | ResNet | Encoder | TSN |
@@ -96,7 +94,9 @@ Here is the full result of TSN on 85 UCR time series classification datasets. Th
 | best  | 5     | 3     | 15    | 5     | 5     | 5     | 8     | 19    | 0     | 17    | 15    | 1    | **24** |
 | AVG rank | 8.676  | 8.800  | 6.082  | 7.259  | 7.329  | 7.635  | 6.835  | **3.529**  | 10.312  | 5.641  | 4.465 | 8.994 | 5.441  |
 
-***
+## Code
+We will publish the source code soon...
+
 ## Reference
 [1] Fawaz H I, Forestier G, Weber J, et al. Deep learning for time series classification: a review[J]. Data Mining and Knowledge Discovery, 2019, 33(4): 917-963. </br>
 [2] Bagnall A, Lines J, Bostrom A, et al. The great time series classification bake off: a review and experimental evaluation of recent algorithmic advances[J]. Data Mining and Knowledge Discovery, 2017, 31(3): 606-660.
