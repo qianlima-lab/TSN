@@ -95,7 +95,21 @@ Here is the full result of TSN on 85 UCR time series classification datasets. Th
 | AVG rank | 8.676  | 8.800  | 6.082  | 7.259  | 7.329  | 7.635  | 6.835  | **3.529**  | 10.312  | 5.641  | 4.465 | 8.994 | 5.441  |
 
 ## Code
-We will publish the source code soon...
+The code for paper "Triple-shapelet Networks for Time Series Classification" accepted by 2019 IEEE International Conference on Data Mining (ICDM).
+
+### Dependencies
+
+- Keras 2.0 and above
+
+- tensorflow 1.0 and above
+
+
+### Usage
+This repository contains a demo of ECGFiveDays in the UCR dataset.  The ECGFiveDays dataset is located in `UCR_TS_Archive_2015/ECGFiveDays/`. You can run the command
+```
+python triple_shapelet_network_demo.py
+```
+to test the model.
 
 ## Reference
 [1] Fawaz H I, Forestier G, Weber J, et al. Deep learning for time series classification: a review[J]. Data Mining and Knowledge Discovery, 2019, 33(4): 917-963. </br>
