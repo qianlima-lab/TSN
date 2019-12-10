@@ -1,6 +1,20 @@
 # TSN
 The paper "Triple-shapelet Networks for Time Series Classification" accepted by 2019 IEEE International Conference on Data Mining (ICDM).
 
+## Code
+The code for Triple-shapelet Networks model. 
+
+### Dependencies
+- Keras 2.0 and above
+- tensorflow 1.0 and above
+
+### Usage
+This repository contains a demo of ECGFiveDays in the UCR dataset.  The ECGFiveDays dataset is located in `UCR_TS_Archive_2015/ECGFiveDays/`. You can run the command
+```
+python triple_shapelet_network_demo.py
+```
+to test the model.
+
 ## Classification Result
 Here is the full result of TSN on 85 UCR time series classification datasets. The results of the deep learning methods are taken from [1], and the results of the other methods are from [2].
 
@@ -93,23 +107,6 @@ Here is the full result of TSN on 85 UCR time series classification datasets. Th
 |Yoga  | 0.856  | 0.856  | **0.918** | 0.859  | 0.819  | 0.869  | 0.879  | 0.877  | 0.855  | 0.839  | 0.870  | 0.820  | 0.843  |
 | best  | 5     | 3     | 15    | 5     | 5     | 5     | 8     | 19    | 0     | 17    | 15    | 1    | **24** |
 | AVG rank | 8.676  | 8.800  | 6.082  | 7.259  | 7.329  | 7.635  | 6.835  | **3.529**  | 10.312  | 5.641  | 4.465 | 8.994 | 5.441  |
-
-## Code
-The code for paper "Triple-shapelet Networks for Time Series Classification" accepted by 2019 IEEE International Conference on Data Mining (ICDM).
-
-### Dependencies
-
-- Keras 2.0 and above
-
-- tensorflow 1.0 and above
-
-
-### Usage
-This repository contains a demo of ECGFiveDays in the UCR dataset.  The ECGFiveDays dataset is located in `UCR_TS_Archive_2015/ECGFiveDays/`. You can run the command
-```
-python triple_shapelet_network_demo.py
-```
-to test the model.
 
 ## Reference
 [1] Fawaz H I, Forestier G, Weber J, et al. Deep learning for time series classification: a review[J]. Data Mining and Knowledge Discovery, 2019, 33(4): 917-963. </br>
